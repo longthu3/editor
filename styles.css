@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+#editor-nav {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#editor-nav input[type="text"] {
+  width: 200px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+ul li button {
+  width: 50px;
+}
